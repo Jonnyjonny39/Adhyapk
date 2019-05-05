@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/item_back_color"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/title_xml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:padding="5dp"
+                android:textAppearance="?android:textAppearance"
+                android:textStyle="bold"
+                android:maxLines="1"/>
+            <TextView
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="Description"
+                android:textAppearance="?android:textAppearance"
+                android:textStyle="bold"
+                android:id="@+id/description_xml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_xml"/>
+            <TextView
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="@string/no_of_students1"
+                android:layout_marginTop="50dp"
+                android:textAppearance="?android:textAppearance"
+                android:textStyle="bold"
+                android:id="@+id/noStudentsxml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"
+
+                />
+            <TextView
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="@string/batch_location2"
+                android:layout_marginTop="70dp"
+                android:textAppearance="?android:textAppearance"
+                android:textStyle="bold"
+                android:id="@+id/locationXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/date_xml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4/27/2019"
+                android:padding="10dp"
+                android:textStyle="bold"
+
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

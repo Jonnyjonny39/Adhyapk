@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/batchpic"
+    android:orientation="vertical"
+    tools:context=".AddBatchNoteActivity">
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_shaper"
+        android:padding="10dp"
+        android:hint="@string/batch_name"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/edt_shaper"
+        android:layout_height="wrap_content"
+        android:hint="@string/batch_time"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/noOfStudents"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/edt_shaper"
+        android:layout_height="wrap_content"
+        android:hint="@string/no_of_students"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/batchLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/edt_shaper"
+        android:hint="@string/batch_location"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+
+
+
+</LinearLayout>
